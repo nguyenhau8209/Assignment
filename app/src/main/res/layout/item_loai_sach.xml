@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        
+        android:background="#5F77FD"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMaLoaiSach"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTenLoaiSach"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnDeleteLoaiSach"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="4dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnUpLoaiSach"
+        android:src="@drawable/ic_baseline_mode_edit_24"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="4dp"/>
+
+</androidx.cardview.widget.CardView>
