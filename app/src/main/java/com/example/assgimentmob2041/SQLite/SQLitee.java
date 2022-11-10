@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 public class SQLitee extends SQLiteOpenHelper {
     public SQLitee(Context context) {
-        super(context, "PNL", null, 3);
+        super(context, "PNL", null, 5);
     }
 
     @Override
